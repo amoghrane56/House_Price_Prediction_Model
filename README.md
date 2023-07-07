@@ -8,15 +8,15 @@ To use the House Price Prediction model, the dataset is typically preprocessed b
 
 Evaluation of the model's performance is typically done using metrics such as mean squared error (MSE) or root mean squared error (RMSE) to measure the prediction accuracy. The model can be further improved by incorporating additional features, performing feature engineering, or exploring different regression algorithms.
 
-Data Collection: Gathered a dataset containing relevant features of houses, such as area, number of rooms, location, and corresponding house prices. The dataset may have been obtained from public sources, real estate databases, or other reliable data providers.
+1. Data Collection: Gathered a dataset containing relevant features of houses, such as area, number of rooms, location, and corresponding house prices. The dataset may have been obtained from public sources, real estate databases, or other reliable data providers.
 
-Data Preprocessing: Explored and cleaned the dataset to handle missing values, outliers, and any inconsistencies. This step involved performing data cleaning, data imputation, and handling categorical variables by encoding them appropriately.
+2. Data Preprocessing: Explored and cleaned the dataset to handle missing values, outliers, and any inconsistencies. This step involved performing data cleaning, data imputation, and handling categorical variables by encoding them appropriately.
 
-Feature Selection/Engineering: Analyzed the dataset and identified the most significant features that contribute to predicting house prices. Feature engineering techniques, such as creating new features or transforming existing ones, may have been applied to enhance the predictive power of the model.
+3. Feature Selection/Engineering: Analyzed the dataset and identified the most significant features that contribute to predicting house prices. Feature engineering techniques, such as creating new features or transforming existing ones, may have been applied to enhance the predictive power of the model.
 
-Data Splitting: Split the dataset into training and testing sets. Typically, a majority of the data is allocated for training the model, while a smaller portion is reserved for evaluating its performance.
+4. Data Splitting: Split the dataset into training and testing sets. Typically, a majority of the data is allocated for training the model, while a smaller portion is reserved for evaluating its performance.
 
-Model Training: Utilized the training dataset to train a Linear Regression model. The model learns the coefficients and intercept that minimize the difference between the predicted and actual house prices based on the selected features.
+5. Model Training: Utilized the training dataset to train a Linear Regression model. The model learns the coefficients and intercept that minimize the difference between the predicted and actual house prices based on the selected features.
 
 Model Evaluation: Evaluated the trained model's performance using appropriate evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), or R-squared (R^2) to measure how well the model fits the data.
 
