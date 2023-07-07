@@ -18,10 +18,10 @@ Evaluation of the model's performance is typically done using metrics such as me
 
 5. Model Training: Utilized the training dataset to train a Linear Regression model. The model learns the coefficients and intercept that minimize the difference between the predicted and actual house prices based on the selected features.
 
-Model Evaluation: Evaluated the trained model's performance using appropriate evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), or R-squared (R^2) to measure how well the model fits the data.
+6. Model Evaluation: Evaluated the trained model's performance using appropriate evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), or R-squared (R^2) to measure how well the model fits the data.
 
-Model Tuning/Optimization: Fine-tuned the model by adjusting hyperparameters or exploring different variations of Linear Regression, such as regularized regression techniques (e.g., Ridge, Lasso) to potentially improve its performance.
+7. Model Tuning/Optimization: Fine-tuned the model by adjusting hyperparameters or exploring different variations of Linear Regression, such as regularized regression techniques (e.g., Ridge, Lasso) to potentially improve its performance.
 
-Model Prediction: Utilized the trained model to make predictions on the testing dataset or new, unseen data. The model takes the relevant input features of a house and predicts its price based on the learned relationships from the training phase.
+8. Model Prediction: Utilized the trained model to make predictions on the testing dataset or new, unseen data. The model takes the relevant input features of a house and predicts its price based on the learned relationships from the training phase.
 
 House Price Prediction using Linear Regression is a valuable tool for real estate agents, homeowners, and investors who want to estimate house prices accurately and make informed decisions based on the predicted values.
